@@ -1,0 +1,20 @@
+.block {
+    max-width: 1300px;
+    min-width: 1010px;
+    overflow-y: scroll;
+}
+
+span {
+    background: rgb(255, 180, 180);
+    font-size: 17px;
+    max-width: 250px;
+    height: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px;
+    padding: 16px;
+    border: solid rgb(93, 93, 93) 2px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(95, 95, 95);
+}
+
