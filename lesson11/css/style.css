@@ -1,0 +1,87 @@
+body {
+    background-color: #1d1d1f;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 2em;
+    margin-bottom: 100px;
+    font-size: inherit;
+}
+
+.button {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: inherit;
+    color: inherit;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+/* ======================================================== */
+
+.link:hover {
+    background: rgb(149, 114, 114);
+    box-shadow: 0 0 2px 20px rgb(149, 149, 149);
+    transform: scale(1.1);
+}
+.link:active {
+    background: blue;
+    box-shadow: 0 0 2px 10px rgb(136, 136, 193);
+}
+
+.button :hover {
+    background: rgb(83, 54, 214);
+    box-shadow: 0 0 3px 20px rgb(133, 86, 237);
+    transform: scale(1.1);
+}
+
+.input:focus {
+    box-shadow: 0 0 5px 10px rgb(251, 108, 108);
+}
+
+.list__item:first-child {
+    color: green;
+}
+
+.list__item:nth-child(3) {
+    background: orange;
+}
+
+.list__item:last-child {
+    color: rgb(255, 182, 194);
+}
+
+.block__item:last-child {
+    border-radius: 17px;
+    background: yellow;
+    color: black
+}
