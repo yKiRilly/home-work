@@ -216,12 +216,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #1D6FB6;
+    background: ;
     height: 53px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background: #1d6fb6cc;
     transform: translateY(100%);
     opacity: 0;
     transition: all .6s;
