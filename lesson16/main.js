@@ -26,9 +26,11 @@ console.log (chapter3)
 
 let i = 2
 
-while(i <= 12) {
-    i = i + 2
-    console.log (i)
+while (i <= 12) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+    i++;
 }
 
 /*--------------------------------------------------*/
@@ -39,7 +41,7 @@ console.log (chapter4)
 
 let i = 10
 
-while(i >= 1) {
-    i = i - 1
-    console.log (i)
+while (i >= 1) {
+    console.log(i);
+    i--;
 }
