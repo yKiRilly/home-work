@@ -42,4 +42,7 @@ let resultMultiplication = calculator(2, 3, 'multiply');
 let resultDivision = calculator(6, 2, 'divide');
 
 
-
+console.log("Результат сложения:", resultAddition);
+console.log("Результат вычитания:", resultSubtraction);
+console.log("Результат умножения:", resultMultiplication);
+console.log("Результат деления:", resultDivision);
